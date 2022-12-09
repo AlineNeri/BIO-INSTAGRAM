@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(34, 26, 26);
+    font-family:sans-serif ;
+    
+}
+body{
+   background-image:  url( mundo\ liu.jpg);
+   background-size: 100%; 
+   
+   
+}
+.logo{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    width: 120%;
+    margin: 60px;
+    gap: 10px;
+    
+}
+
+.logo img{
+    width: 250px;
+    height: 250px;
+    border: 0 3px;
+    border-radius: 80%;
+    
+}
+.logo h1{
+    font-size: 40px;
+    color:plum;
+    font-style:italic  ;
+
+}
+.logo a{
+    background-color:plum;
+    color:rgb(154, 78, 154);
+    padding: 10px;
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: solid 1px violet;
+    border-radius: 15px;
+    font-style: italic;
+    
+}
+.logo h1:hover{
+color: aqua;
+
+}
+
+.logo a:hover{
+    background-image: url(mundo\ liu.jpg);
+    color: aqua;
+}
+
